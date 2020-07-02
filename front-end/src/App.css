@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* Fonts */
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  src: local("ITC Avant Garde Gothic Std Demi"),
+    url(./fonts/ITCAvantGardeStdDemi.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Demi Obl";
+  src: local("ITC Avant Garde Gothic Std Demi Olb"),
+    url(./fonts/ITCAvantGardeStdDemiObl.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar1 {
+  background-color: #032774;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Navbar2 {
+  background-color: #ffdd15;
+  padding: 20px;
+  padding-bottom: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.Navbar2 .container .row #contacto,
+#proyectos,
+#nosotros,
+#servicios,
+#inicio,
+#buscar {
+  width: 20px;
+  fill: #032774;
+  padding-right: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar2 .col-8 ul {
+  display: inline-flex;
+  float: right;
+  position: relative;
+  top: 25%;
+  bottom: 75%;
+}
+.Navbar2 .col-8 ul .buscar {
+  padding-right: 0;
+}
+.Navbar2 .container .row #logo {
+  fill: #032774;
+  width: 60%;
+}
+.Navbar2 .col-8 ul li {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #032774;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.Navbar2 .container .row .nav-item {
+  color: #032774;
+  text-align: right;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.Navbar1 .container .row .options {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.Navbar2 .container .row .col-8 .link {
+  color: #032774;
 }
