@@ -67,3 +67,125 @@
 .Navbar2 .container .row .col-8 .link {
   color: #032774;
 }
+
+/*  Nosotros Styles  */
+
+.Nosotros {
+  padding: 30px;
+}
+
+.Nosotros h1 {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: #032774;
+}
+
+.Nosotros p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+}
+
+/* Servicios Styles */
+
+.Servicios {
+  background-color: gray;
+}
+
+.Servicios h2 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+}
+
+/* Clientes Styles */
+
+.Clientes h2 {
+  color: #032774;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  text-align: center;
+}
+
+.Clientes img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+.Clientes .row {
+  display: inline-block;
+}
+
+.Clientes .col-2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Proyectos Styles */
+
+.Proyectos h2 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  text-align: center;
+}
+
+.Proyectos p {
+  text-align: center;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Proyectos {
+  background-color: #032774;
+  padding: 30px;
+}
+
+.Proyectos .container {
+  text-align: center;
+}
+
+.Proyectos button {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+  margin: 0 auto;
+}
+
+/* Galeria Styles */
+
+.Galeria {
+  padding: 30px;
+  background-color: blueviolet;
+}
+
+.Galeria h2 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  text-align: center;
+}
+
+/* Redes Styles */
+
+.Redes {
+  background-color: #444;
+  padding: 20px;
+}
+
+.Redes .col-1 {
+  padding: 0;
+  text-align: center;
+}
+
+.Redes a {
+  color: #ccc;
+  font-size: 40px;
+}
+
+.Redes button {
+  color: #ccc;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  background-color: transparent;
+  border-radius: 25px;
+  border: 3px solid #ccc;
+  padding: 8px 10px 8px 10px;
+}

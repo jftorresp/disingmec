@@ -95,7 +95,7 @@ const Navbar2 = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/nosotros" className="link">
+                <Link to="/#nosotros" className="link">
                   <svg
                     id="nosotros"
                     data-name="Layer 1"
