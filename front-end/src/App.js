@@ -11,6 +11,7 @@ import Clientes from "./layout/Clientes";
 import Proyectos from "./layout/Proyectos";
 import Galeria from "./layout/Galeria";
 import Redes from "./layout/Redes";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Proyectos />
         <Galeria />
         <Redes />
+        <Footer />
       </Router>
     </div>
   );

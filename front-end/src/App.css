@@ -189,3 +189,33 @@
   border: 3px solid #ccc;
   padding: 8px 10px 8px 10px;
 }
+
+/* Footer Styles */
+
+.Footer {
+  background-color: #032774;
+  padding: 20px;
+}
+
+.Footer h4 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+}
+
+.Footer hr {
+  color: #fff;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.Footer p,
+ul,
+li {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 0px;
+}
+
+.Footer ul {
+  padding-left: 25px;
+}
