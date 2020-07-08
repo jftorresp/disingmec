@@ -12,85 +12,87 @@ import logo_cementos from "../images/logo_cementos.jpg";
 const Clientes = () => {
   return (
     <div className="Clientes">
-      <div className="container">
-        <h2>Nuestros Clientes</h2>
-        <div className="row">
-          <div className="col-1"></div>
-          <div className="col-2">
-            <a
-              href="https://tebsa.com.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_tebsa} alt="logo de Tebsa" />
-            </a>
+      <div className="curve" id="curve-cli">
+        <div className="container">
+          <h2>Nuestros Clientes</h2>
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-2">
+              <a
+                href="https://tebsa.com.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_tebsa} alt="logo de Tebsa" />
+              </a>
+            </div>
+            <div className="col-2">
+              <a
+                href="http://www.fronteraenergy.ca/es/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_pacific} alt="logo de Pacific" />
+              </a>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://www.bavaria.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_bavaria} alt="logo de Bavaria" />
+              </a>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://www.manuelita.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_manuelita} alt="logo de Manuelita" />
+              </a>
+            </div>
+            <div className="col-2">
+              <a
+                href="https://www.gensa.com.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_gensa} alt="logo de Gensa" />
+              </a>
+            </div>
+            <div className="col-1"></div>
           </div>
-          <div className="col-2">
-            <a
-              href="http://www.fronteraenergy.ca/es/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_pacific} alt="logo de Pacific" />
-            </a>
+          <br></br>
+          <div className="row">
+            <div className="col-2"></div>
+            <div className="col-2">
+              <a
+                href="https://www.enel.com.co/es/conoce-enel/grupo-enel.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_enel} alt="logo de Enel" />
+              </a>
+            </div>
+            <div className="col-2">
+              <a
+                href="http://www.ces.com.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={logo_sochagota} alt="logo de Sochagota" />
+              </a>
+            </div>
+            <div className="col-2">
+              <img src={logo_aceites} alt="logo de Aceites Catatumbo" />
+            </div>
+            <div className="col-2">
+              <img src={logo_cementos} alt="logo de Cementos Boyaca" />
+            </div>
+            <div className="col-2"></div>
           </div>
-          <div className="col-2">
-            <a
-              href="https://www.bavaria.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_bavaria} alt="logo de Bavaria" />
-            </a>
-          </div>
-          <div className="col-2">
-            <a
-              href="https://www.manuelita.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_manuelita} alt="logo de Manuelita" />
-            </a>
-          </div>
-          <div className="col-2">
-            <a
-              href="https://www.gensa.com.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_gensa} alt="logo de Gensa" />
-            </a>
-          </div>
-          <div className="col-1"></div>
-        </div>
-        <br></br>
-        <div className="row">
-          <div className="col-2"></div>
-          <div className="col-2">
-            <a
-              href="https://www.enel.com.co/es/conoce-enel/grupo-enel.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_enel} alt="logo de Enel" />
-            </a>
-          </div>
-          <div className="col-2">
-            <a
-              href="http://www.ces.com.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logo_sochagota} alt="logo de Sochagota" />
-            </a>
-          </div>
-          <div className="col-2">
-            <img src={logo_aceites} alt="logo de Aceites Catatumbo" />
-          </div>
-          <div className="col-2">
-            <img src={logo_cementos} alt="logo de Cementos Boyaca" />
-          </div>
-          <div className="col-2"></div>
         </div>
       </div>
     </div>
