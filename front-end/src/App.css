@@ -295,6 +295,15 @@
   padding: 20px;
 }
 
+.Footer img {
+  width: 35%;
+  text-align: en;
+}
+
+.Footer .col-6 {
+  text-align: end;
+}
+
 .Footer h4 {
   color: #fff;
   font-family: "ITC Avant Garde Gothic Std Demi";

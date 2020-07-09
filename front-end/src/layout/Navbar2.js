@@ -76,7 +76,7 @@ const Navbar2 = () => {
             {" "}
             <ul>
               <li>
-                <Link to="/" className="link">
+                <Link to="/" className="link" aria-label="home">
                   <svg
                     id="inicio"
                     data-name="Layer 1"
@@ -95,7 +95,7 @@ const Navbar2 = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/#nosotros" className="link">
+                <Link to="/#nosotros" className="link" aria-label="nosotros">
                   <svg
                     id="nosotros"
                     data-name="Layer 1"
@@ -114,7 +114,7 @@ const Navbar2 = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/proyectos" className="link">
+                <Link to="/proyectos" className="link" aria-label="proyectos">
                   <svg
                     id="proyectos"
                     data-name="Layer 1"
@@ -141,7 +141,7 @@ const Navbar2 = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/servicios" className="link">
+                <Link to="/servicios" className="link" aria-label="services">
                   <svg
                     id="servicios"
                     data-name="Layer 1"
@@ -160,7 +160,7 @@ const Navbar2 = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contacto" className="link">
+                <Link to="/contacto" className="link" aria-label="contacto">
                   <svg
                     id="contacto"
                     data-name="Layer 1"

@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
+import LogoBlanco from "../images/logo_blanco.png";
 
 const Footer = () => {
   return (
@@ -27,7 +28,9 @@ const Footer = () => {
               <li>Servicio 5</li>
             </ul>
           </div>
-          <div className="col-6"></div>
+          <div className="col-6">
+            <img src={LogoBlanco} alt="Logo Blanco Disingmec" />
+          </div>
         </div>
         <hr />
         <div className="row">
