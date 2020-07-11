@@ -14,6 +14,7 @@ import Redes from "./layout/Redes";
 import Footer from "./layout/Footer";
 import Services from "./components/Services";
 import SolucionesBanner from "./layout/SolucionesBanner";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
             <Clientes />
             <Proyectos />
             <Galeria />
+          </Route>
+          <Route path="/proyectos">
+            <Projects />
           </Route>
           <Route path="/servicios">
             <Services />

@@ -126,8 +126,11 @@
   height: 100%;
 }
 
-.Servicios .col-3 {
+.Servicios .col-lg-3,
+.col-md-6,
+.co.-sm-12 {
   padding: 10px;
+  width: 100%;
 }
 
 .Services .service-banner {
@@ -169,8 +172,10 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
-  height: 220px;
-  width: 220px;
+  /* height: 220px;
+  width: 220px; */
+  width: 100%;
+  height: 100%;
 }
 
 .Services .services-section .service-card {
@@ -179,10 +184,12 @@
   border-radius: 20px;
   padding: 20px;
   text-align: center;
-  height: 220px;
-  width: 220px;
+  /* height: 220px;
+  width: 220px; */
+  width: 100%;
+  height: 100%;
   color: #fff;
-  display: table-cell;
+  display: flex;
   vertical-align: middle;
 }
 
@@ -295,6 +302,86 @@
   border: none;
   padding: 12px;
   margin: 0 auto;
+}
+
+.Projects .project-banner {
+  background-image: url("./images/banner_soluciones.jpeg");
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.Projects .project-banner div {
+  background-color: rgba(3, 39, 116, 0.8);
+  width: 100%;
+  padding: 100px;
+}
+
+.Projects .project-banner div h1 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.Projects .project-banner div p {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Projects .projects-section {
+  padding: 30px;
+}
+
+.Projects .project-image {
+  background-image: url("./images/banner_soluciones.jpeg");
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  /* height: 220px;
+  width: 220px; */
+  width: 100%;
+  height: 100%;
+}
+
+.Projects .projects-section .project-card {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  background-color: rgba(3, 39, 116, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  /* height: 220px;
+  width: 220px; */
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  vertical-align: middle;
+}
+
+.Projects .projects-section .project-card p {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: #fff;
+  margin: auto;
+  padding: 40px;
+  display: inline;
+}
+
+.Projects .projects-section .project-card div {
+  width: 95%;
+  height: 95%;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Projects .projects-section .row {
+  padding: 10px;
 }
 
 /* Galeria Styles */

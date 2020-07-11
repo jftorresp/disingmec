@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -12,8 +13,7 @@ const Services = () => {
         </div>
         <div className="services-section container">
           <div className="row">
-            <h4></h4>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -43,7 +43,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3 ">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -54,8 +54,7 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-            <h4></h4>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -64,7 +63,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -73,7 +72,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
@@ -82,7 +81,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="service-image">
                 <div className="service-card">
                   <div>
