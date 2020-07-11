@@ -328,3 +328,60 @@ li {
 .Footer ul {
   padding-left: 25px;
 }
+
+/* SolucionesBanner Styles */
+
+.SolucionesBanner {
+  background-image: url(images/banner_soluciones.jpeg);
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  background-position: center;
+}
+
+/* .SolucionesBanner .row {
+  display: inline-block;
+} */
+
+.SolucionesBanner .col-6 {
+  display: table-cell;
+}
+
+.SolucionesBanner #blue {
+  background-color: rgba(3, 39, 116, 0.8);
+  padding: 80px;
+  vertical-align: middle;
+}
+
+.SolucionesBanner .container {
+  max-width: 100%;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.SolucionesBanner .row {
+  height: 100%;
+  margin: 0px;
+}
+
+.SolucionesBanner h1 {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: white;
+  display: block;
+  text-align: right;
+}
+
+.SolucionesBanner p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  display: block;
+  text-align: right;
+}
+
+.SolucionesBanner .line {
+  border: 1px solid white;
+}

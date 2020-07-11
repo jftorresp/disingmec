@@ -13,6 +13,7 @@ import Galeria from "./layout/Galeria";
 import Redes from "./layout/Redes";
 import Footer from "./layout/Footer";
 import Services from "./components/Services";
+import SolucionesBanner from "./layout/SolucionesBanner";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/contacto">
             <p>Chao</p>
+          </Route>
+          <Route path="/soluciones">
+            <SolucionesBanner />
           </Route>
         </Switch>
         <Redes />
