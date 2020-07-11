@@ -34,6 +34,17 @@
   fill: #032774;
   padding-right: 4px;
 }
+
+.Navbar2 #burger {
+  display: none;
+  visibility: hidden;
+}
+
+.Navbar2 button {
+  display: none;
+  visibility: hidden;
+}
+
 .Navbar2 .col-8 ul {
   display: inline-flex;
   float: right;
@@ -46,8 +57,14 @@
 }
 .Navbar2 .container .row #logo {
   fill: #032774;
-  width: 60%;
+  width: 200px;
 }
+
+.Navbar2 .container .row #logo_solo {
+  display: none;
+  visibility: hidden;
+}
+
 .Navbar2 .col-8 ul li {
   list-style: none;
   padding-right: 10px;
@@ -434,7 +451,7 @@
   background-color: #2c2c3d;
 }
 
-.Redes .col-1 {
+.Redes .col-lg-1 {
   padding: 0;
   text-align: center;
 }
@@ -465,7 +482,7 @@
   text-align: en;
 }
 
-.Footer .col-6 {
+.Footer .col-lg-6 {
   text-align: end;
 }
 
@@ -547,4 +564,46 @@ li {
 
 .SolucionesBanner .line {
   border: 1px solid white;
+}
+
+/* Responsive */
+
+@media (max-width: 834px) {
+  .Navbar2 .container .row #contacto,
+  #proyectos,
+  #nosotros,
+  #servicios,
+  #inicio,
+  #buscar,
+  ul,
+  li {
+    display: none;
+    visibility: hidden;
+  }
+
+  .Navbar2 .container .row #logo {
+    display: none;
+    visibility: hidden;
+  }
+
+  .Navbar2 #burger {
+    color: #032774;
+    visibility: visible;
+    display: initial;
+    font-size: 25px;
+  }
+
+  .Navbar2 button {
+    display: initial;
+    visibility: visible;
+    background-color: transparent;
+    border: none;
+  }
+
+  .Navbar2 .container .row #logo_solo {
+    display: initial;
+    visibility: visible;
+    fill: #032774;
+    width: 50px;
+  }
 }

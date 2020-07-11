@@ -8,21 +8,21 @@ const Servicios = () => {
         <div className="container">
           <h2 className="text-center">Servicios</h2>
           <div className="row">
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>Taller de torno, máquinas y herramientas</h5>
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>Fabricación y montaje de estructuras metálicas</h5>
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>
@@ -32,7 +32,7 @@ const Servicios = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>Montajes y mantenimiento de sistemas hidráulicos</h5>
@@ -41,14 +41,14 @@ const Servicios = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>Mantenimiento Grupos Generadores</h5>
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>
@@ -58,14 +58,14 @@ const Servicios = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>Construcción de obras civiles en general</h5>
                 </div>
               </Link>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-6">
               <Link to="/servicios">
                 <div className="service-item">
                   <h5>

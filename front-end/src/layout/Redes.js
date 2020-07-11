@@ -4,7 +4,7 @@ import {
   faFacebook,
   faInstagram,
   faTwitter,
-  faLinkedinIn
+  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -15,7 +15,7 @@ const Redes = () => {
       <div className="curve" id="curve-red">
         <div className="container">
           <div className="row">
-            <div className="col-1">
+            <div className="col-lg-1 col-md-2">
               {" "}
               <a
                 aria-label="instagram"
@@ -26,7 +26,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-1">
+            <div className="col-lg-1 col-md-2">
               {" "}
               <a
                 aria-label="instagram"
@@ -37,7 +37,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-1">
+            <div className="col-lg-1 col-md-2">
               {" "}
               <a
                 aria-label="instagram"
@@ -48,7 +48,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-1">
+            <div className="col-lg-1 col-md-2">
               {" "}
               <a
                 aria-label="instagram"
@@ -59,7 +59,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-1">
+            <div className="col-lg-1 col-md-2">
               {" "}
               <a
                 aria-label="instagram"
@@ -70,7 +70,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-6 text-right">
+            <div className="col-lg-6 col-md-12 col-sm-12 text-right">
               <button>CONTACTO</button>
             </div>
           </div>

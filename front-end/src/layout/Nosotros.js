@@ -5,7 +5,7 @@ const Nosotros = () => {
     <div className="Nosotros">
       <div className="container">
         <div className="row" id="#nosotros">
-          <div className="col-6">
+          <div className="col-lg-6">
             <h1>¿Quiénes Somos?</h1>
             <p>
               DISINGMEC LTDA es una organización que tiene por objeto la
@@ -20,11 +20,11 @@ const Nosotros = () => {
               entrega y presupuesto.
             </p>
           </div>
-          <div className="col-6"></div>
+          <div className="col-lg-6"></div>
         </div>
         <div className="row">
-          <div className="col-6"></div>
-          <div className="col-6">
+          <div className="col-lg-6"></div>
+          <div className="col-lg-6">
             <h1>Misión y Visión</h1>
             <p>
               Somos una empresa de ingeniería metalmecánica, especializada en
