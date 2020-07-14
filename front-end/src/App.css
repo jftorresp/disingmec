@@ -461,6 +461,10 @@
   font-size: 40px;
 }
 
+.Redes .red {
+  padding: 10px;
+}
+
 .Redes button {
   color: #ccc;
   font-family: "ITC Avant Garde Gothic Std Demi";
@@ -568,6 +572,12 @@ li {
 
 /* Responsive */
 
+@media (max-width: 400px) {
+  .Redes a {
+    font-size: 25px;
+  }
+}
+
 @media (max-width: 834px) {
   .Navbar2 .container .row #contacto,
   #proyectos,
@@ -606,6 +616,83 @@ li {
     fill: #032774;
     width: 50px;
   }
+}
+
+/* Contacto */
+
+.Contact .contact-banner {
+  background-image: url("./images/banner_soluciones.jpeg");
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.Contact .contact-banner div {
+  background-color: rgba(3, 39, 116, 0.8);
+  width: 100%;
+  padding: 100px;
+}
+
+.Contact .contact-banner div h1 {
+  color: #fff;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.Contact .contact-banner div p {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Contact .contact-section {
+  padding: 30px;
+}
+
+.Contact label,
+::placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+}
+
+.Contact p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+}
+
+.Contact button {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: #fff;
+  background-color: #0365c1;
+  border-radius: 30px;
+  border: none;
+  padding: 8px 15px 8px 15px;
+}
+
+.Contact h2,
+h5 {
+  color: #032774;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+}
+
+.Contact i {
+  background-color: #032774;
+  color: #ffdd15;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.Contact .info-line {
+  padding: 8px 0px 8px 0px;
+}
+
+.Contact .fila {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
 /* Sidebar */

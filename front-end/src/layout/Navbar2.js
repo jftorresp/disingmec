@@ -21,10 +21,18 @@ const Navbar2 = () => {
           <a href="#" class="closebtn" onClick={hideMenu}>
             &times;
           </a>
-          <a href="#">Nosotros</a>
-          <a href="#">Proyectos</a>
-          <a href="#">Servicios</a>
-          <a href="#">Contacto</a>
+          <Link to="/#nosotros" className="link" aria-label="home">
+            Nosotros
+          </Link>
+          <Link to="/proyectos" className="link" aria-label="proyectos">
+            Proyectos
+          </Link>
+          <Link to="/servicios" className="link" aria-label="services">
+            Servicios
+          </Link>
+          <Link to="/contacto" className="link" aria-label="contacto">
+            Contacto
+          </Link>
           <a href="#">Buscar</a>
         </div>
         <nav>
