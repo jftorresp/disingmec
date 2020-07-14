@@ -14,10 +14,12 @@ import Redes from "./layout/Redes";
 import Footer from "./layout/Footer";
 import Services from "./components/Services";
 import SolucionesBanner from "./layout/SolucionesBanner";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="main">
       <Router>
         <Navbar1 />
         <ScrollHandler />
@@ -31,6 +33,9 @@ function App() {
             <Proyectos />
             <Galeria />
           </Route>
+          <Route path="/proyectos">
+            <Projects />
+          </Route>
           <Route path="/servicios">
             <Services />
           </Route>
@@ -38,7 +43,7 @@ function App() {
             <p>Hola</p>
           </Route>
           <Route path="/contacto">
-            <p>Chao</p>
+            <Contact />
           </Route>
           <Route path="/soluciones">
             <SolucionesBanner />

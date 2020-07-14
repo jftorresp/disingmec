@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="Footer">
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3">
             <h4>Datos de contacto</h4>
             <p>
               Para cualquier inquietud: <br></br>
@@ -18,7 +18,7 @@ const Footer = () => {
               Correo: correo@disingmec.co
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             <h4>Servicios</h4>
             <ul>
               <li>Servicio 1</li>
@@ -28,13 +28,13 @@ const Footer = () => {
               <li>Servicio 5</li>
             </ul>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6">
             <img src={LogoBlanco} alt="Logo Blanco Disingmec" />
           </div>
         </div>
         <hr />
         <div className="row">
-          <div className="col-12">
+          <div className="col-lg-12">
             <p>
               <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2020
               Disingmec SAS. Todos los derechos reservados.

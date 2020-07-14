@@ -70,7 +70,7 @@ const Redes = () => {
                 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-6 text-right">
+            <div className="col-7 text-right">
               <button>CONTACTO</button>
             </div>
           </div>
