@@ -6,8 +6,7 @@ import logo_manuelita from "../images/logo_manuelita.png";
 import logo_gensa from "../images/logo_gensa.png";
 import logo_enel from "../images/logo_enel.png";
 import logo_sochagota from "../images/logo_sochagota.png";
-import logo_aceites from "../images/logo_aceites.jpg";
-import logo_cementos from "../images/logo_cementos.jpg";
+import logo_aceites from "../images/logo_aceites.png";
 
 const Clientes = () => {
   return (

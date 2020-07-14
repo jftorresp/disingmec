@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar2 = () => {
   function showMenu() {
-    document.getElementById("mySidebar").style.width = "200px";
+    document.getElementById("mySidebar").style.width = "100%";
     document.getElementById("main").style.marginLeft = "200px";
   }
 
@@ -17,20 +17,40 @@ const Navbar2 = () => {
   return (
     <div className="Navbar2">
       <div className="container">
-        <div id="mySidebar" class="sidebar">
-          <a href="#" class="closebtn" onClick={hideMenu}>
+        <div id="mySidebar" className="sidebar">
+          <a href="#" className="closebtn" onClick={hideMenu}>
             &times;
           </a>
-          <Link to="/#nosotros" className="link" aria-label="home">
+          <Link
+            to="/#nosotros"
+            className="link"
+            aria-label="home"
+            onClick={hideMenu}
+          >
             Nosotros
           </Link>
-          <Link to="/proyectos" className="link" aria-label="proyectos">
+          <Link
+            to="/proyectos"
+            className="link"
+            aria-label="proyectos"
+            onClick={hideMenu}
+          >
             Proyectos
           </Link>
-          <Link to="/servicios" className="link" aria-label="services">
+          <Link
+            to="/servicios"
+            className="link"
+            aria-label="services"
+            onClick={hideMenu}
+          >
             Servicios
           </Link>
-          <Link to="/contacto" className="link" aria-label="contacto">
+          <Link
+            to="/contacto"
+            className="link"
+            aria-label="contacto"
+            onClick={hideMenu}
+          >
             Contacto
           </Link>
           <a href="#">Buscar</a>
@@ -47,14 +67,14 @@ const Navbar2 = () => {
                 <defs></defs>
                 <path d="M708,342.7h-1.2a310.29,310.29,0,0,0-49.34-119.07l.86-.87L704.67,139,661,95.34l-83.78,46.37-.86.86A310.23,310.23,0,0,0,457,93.15L430.86,0H369.14L343,93.15a310.29,310.29,0,0,0-119.72,49.62L139,95.34,95.33,139l47.43,84.36a310.15,310.15,0,0,0-49.6,119.71L0,369.15v61.72L93.16,457a310.09,310.09,0,0,0,29.17,85.47,1.47,1.47,0,0,0,2.72-.28c32.71-113.73,83.15-211.35,172.8-253.82,39.26-18.61,83-26.24,126-19.9,65.47,9.64,91.39,44.66,88.55,98.14C502.48,526.76,343,528.41,303.06,527.4a8.67,8.67,0,0,1-8.4-9.2c2.64-44,24.74-123.34,48.51-194.36a1.63,1.63,0,0,0-2.15-2c-91.71,37.75-125.08,167-116.34,295.18a79.63,79.63,0,0,0,46.08,67,308.61,308.61,0,0,0,71.93,22.72V708l26.45,92h61.72l26.45-92v-1.23a310.28,310.28,0,0,0,119.05-49.33l.89.88L661,704.68,704.67,661,658.3,577.26l-.88-.88a310.42,310.42,0,0,0,49.35-119.06H708l92-26.45V369.15Z" />
                 <rect
-                  class="cls-1"
+                  className="cls-1"
                   x="134.71"
                   y="169.96"
                   width="1"
                   height="0.83"
                 />
                 <rect
-                  class="cls-1"
+                  className="cls-1"
                   x="134.71"
                   y="169.96"
                   width="1"
@@ -128,8 +148,8 @@ const Navbar2 = () => {
             </div>
             <div className="col-8">
               {" "}
-              <ul>
-                <li>
+              <ul id="ul-nav">
+                <li className="li-nav">
                   <Link to="/" className="link" aria-label="home">
                     <svg
                       id="inicio"
@@ -148,7 +168,7 @@ const Navbar2 = () => {
                     Inicio
                   </Link>
                 </li>
-                <li>
+                <li className="li-nav">
                   <Link to="/#nosotros" className="link" aria-label="nosotros">
                     <svg
                       id="nosotros"
@@ -167,7 +187,7 @@ const Navbar2 = () => {
                     Nosotros
                   </Link>
                 </li>
-                <li>
+                <li className="li-nav">
                   <Link to="/proyectos" className="link" aria-label="proyectos">
                     <svg
                       id="proyectos"
@@ -194,7 +214,7 @@ const Navbar2 = () => {
                     Proyectos
                   </Link>
                 </li>
-                <li>
+                <li className="li-nav">
                   <Link to="/servicios" className="link" aria-label="services">
                     <svg
                       id="servicios"
@@ -213,7 +233,7 @@ const Navbar2 = () => {
                     Servicios
                   </Link>
                 </li>
-                <li>
+                <li className="li-nav">
                   <Link to="/contacto" className="link" aria-label="contacto">
                     <svg
                       id="contacto"
@@ -232,7 +252,7 @@ const Navbar2 = () => {
                     Contacto
                   </Link>
                 </li>
-                <li className="buscar">
+                <li className="buscar li-nav">
                   <svg
                     id="buscar"
                     data-name="Layer 1"

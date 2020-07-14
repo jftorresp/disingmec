@@ -245,7 +245,7 @@
 }
 
 .Clientes img {
-  width: 95%;
+  width: 90%;
   display: block;
   margin: 0 auto;
 }
@@ -253,11 +253,11 @@
 /* .Clientes .row {
   display: inline-block;
 }
-
+*/
 .Clientes .col-2 {
   display: table-cell;
   vertical-align: middle;
-} */
+}
 
 .Clientes {
   background-color: #bbc7cc;
@@ -439,18 +439,7 @@
 
 .Redes {
   background-color: #2c2c3d;
-}
-
-.Redes .curve {
-  position: relative;
-  width: 100%;
-  margin: 20px 0;
-  border-radius: 5% 5% 0 0 /70% 70% 0 0;
-  text-align: center;
-  text-indent: 0.1em;
-  z-index: 1;
-  margin: 0;
-  padding: 20px;
+  padding: 15px;
 }
 
 .Redes #curve-red {
@@ -649,10 +638,11 @@ li {
 }
 
 .SolucionesBanner .content #blue2 {
-  background-color: #0365c1;
+  background-color: #032774;
   border-radius: 30px;
   padding: 10px;
   height: 100%;
+  text-align: center;
 }
 
 .SolucionesBanner .content img {
@@ -685,6 +675,11 @@ li {
 
 .SolucionesBanner .content #flex {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.SolucionesBanner .content #flex > div {
+  flex: 1 1 50%;
 }
 
 /* Responsive */
@@ -692,6 +687,36 @@ li {
 @media (max-width: 400px) {
   .Redes a {
     font-size: 25px;
+  }
+  .SolucionesBanner .content .col-lg-6 .col-12 img {
+    height: 150px;
+  }
+
+  .SolucionesBanner .content .col-lg-6 .col-6 img {
+    height: 100px;
+  }
+
+  .SolucionesBanner .content .col-lg-6 .col-12 {
+    padding: 0 10px;
+  }
+  .SolucionesBanner .content .col-lg-6 .col-6 {
+    padding: 0 10px;
+  }
+
+  .SolucionesBanner .content .col-lg-6 .col-3 {
+    padding: 0 10px;
+  }
+
+  .SolucionesBanner .content .col-lg-6 .col-3 img {
+    height: 50px;
+  }
+
+  .SolucionesBanner .content #blue1 {
+    padding: 5px;
+  }
+
+  .SolucionesBanner .content #blue2 {
+    padding: 5px;
   }
 }
 
@@ -702,8 +727,7 @@ li {
   #servicios,
   #inicio,
   #buscar,
-  ul,
-  li {
+  .li-nav {
     display: none;
     visibility: hidden;
   }
@@ -732,6 +756,19 @@ li {
     visibility: visible;
     fill: #032774;
     width: 50px;
+  }
+}
+
+@media (max-width: 990px) {
+  .SolucionesBanner .content #flex > div {
+    flex: 1 1 100%;
+  }
+
+  .SolucionesBanner .content #blue2 {
+    order: 2;
+  }
+  .SolucionesBanner .content #right_container {
+    order: 1;
   }
 }
 

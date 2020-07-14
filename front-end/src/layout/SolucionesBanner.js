@@ -9,9 +9,7 @@ const SolucionesBanner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12"></div>
             <div className="col-lg-6 col-md-12" id="blue">
-              <h1>
-                Proyectos y soluciones&nbsp;únicas para&nbsp;su&nbsp;empresa
-              </h1>
+              <h1>Proyectos y soluciones únicas para su empresa</h1>
               <hr className="line" />
               <p>
                 Disingmec no se limita a un portafolio de servicios
@@ -96,7 +94,7 @@ const SolucionesBanner = () => {
                   <h4>¡Conozca nuestros mejores proyectos!</h4>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12">
+              <div className="col-lg-6 col-md-12" id="right_container">
                 <p id="left">
                   Contamos con personal humano calificado y con amplia
                   experiencia certificada para el desarrollo de todos los
