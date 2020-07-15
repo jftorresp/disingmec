@@ -16,6 +16,7 @@ import Services from "./components/Services";
 import SolucionesBanner from "./layout/SolucionesBanner";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ScrollUpButton from "react-scroll-up-button";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Navbar1 />
         <ScrollHandler />
         <Navbar2 />
+        <ScrollUpButton />
         <Switch>
           <Route exact path="/">
             <ControlledCarousel />

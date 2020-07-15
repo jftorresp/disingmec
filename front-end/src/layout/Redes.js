@@ -71,7 +71,9 @@ const Redes = () => {
               </a>
             </div>
             <div className="col-7 text-right">
-              <button>CONTACTO</button>
+              <Link to="/contacto" className="but">
+                <button>CONTACTO</button>
+              </Link>
             </div>
           </div>
         </div>

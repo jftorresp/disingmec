@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 import LogoBlanco from "../images/logo_blanco.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,7 +30,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-6">
-            <img src={LogoBlanco} alt="Logo Blanco Disingmec" />
+            <Link to="/">
+              <img src={LogoBlanco} alt="Logo Blanco Disingmec" />
+            </Link>
           </div>
         </div>
         <hr />

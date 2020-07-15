@@ -5,76 +5,108 @@ const Servicios = () => {
   return (
     <div className="Servicios">
       <div className="curve" id="curve-ser">
-        <div className="container">
+        <div className="container services-section">
           <h2 className="text-center">Servicios</h2>
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>Taller de torno, máquinas y herramientas</h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>Taller de torno, máquinas y herramientas</p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>Fabricación y montaje de estructuras metálicas</h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>Fabricación y montaje de estructuras metálicas</p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>
-                    Reparaciones de superficies y aplicaciones de pintura según
-                    sistemas Sspc-sp.
-                  </h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>
+                        Reparaciones de superficies y aplicaciones de pintura
+                        según sistemas Sspc-sp.
+                      </p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>Montajes y mantenimiento de sistemas hidráulicos</h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>Montajes y mantenimiento de sistemas hidráulicos</p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>Mantenimiento Grupos Generadores</h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>Mantenimiento Grupos Generadores</p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>
-                    Procesos de soldadura orbital, aplicación de soldadura y
-                    agua filtrada
-                  </h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>
+                        Procesos de soldadura orbital, aplicación de soldadura y
+                        agua filtrada
+                      </p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>Construcción de obras civiles en general</h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>Construcción de obras civiles en general</p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link to="/servicios">
-                <div className="service-item">
-                  <h5>
-                    Mantenimiento y aplicación de recubrimientos de protección
-                    en zonas de almacenamiento de químicos y otros ambientes
-                    agresivos
-                  </h5>
+              <div className="service-image">
+                <div className="service-card">
+                  <div>
+                    <Link to="/servicios" className="link">
+                      <p>
+                        Mantenimiento y aplicación de recubrimientos de
+                        protección en zonas de almacenamiento de químicos y
+                        otros ambientes agresivos
+                      </p>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

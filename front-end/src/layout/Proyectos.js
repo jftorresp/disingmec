@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Proyectos = () => {
   return (
@@ -12,7 +13,9 @@ const Proyectos = () => {
             cumque sit reiciendis deserunt, magni sapiente illum nobis odio
             officiis ipsam vel.
           </p>
-          <button>CONOZCA MÁS</button>
+          <Link to="/proyectos">
+            <button>CONOZCA MÁS</button>
+          </Link>
         </div>
       </div>
     </div>
