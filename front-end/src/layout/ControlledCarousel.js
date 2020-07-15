@@ -13,7 +13,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hnck0391.jpg"
+          src="https://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hnck0391.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -24,7 +24,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_img_5948.jpg"
+          src="https://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_img_5948.jpg"
           alt="Second slide"
         />
 
@@ -36,7 +36,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hanv9909.jpg"
+          src="https://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hanv9909.jpg"
           alt="Third slide"
         />
 

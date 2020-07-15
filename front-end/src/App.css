@@ -132,7 +132,7 @@
 }
 
 .Servicios h2 {
-  color: #fff;
+  color: #000;
   font-family: "ITC Avant Garde Gothic Std Demi";
 }
 
@@ -746,6 +746,18 @@ li {
   }
 }
 
+@media (max-width: 600px) {
+  .Clientes .clientes-large {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .Clientes .clientes-small {
+    visibility: visible;
+    height: 100%;
+  }
+}
+
 @media (max-width: 834px) {
   .Navbar2 .container .row #contacto,
   #proyectos,
@@ -802,16 +814,6 @@ li {
       rgba(3, 39, 116, 0.7) 50%,
       rgba(3, 39, 116, 0.7) 50%
     );
-  }
-
-  .Clientes .clientes-large {
-    visibility: hidden;
-    height: 0;
-  }
-
-  .Clientes .clientes-small {
-    visibility: visible;
-    height: 100%;
   }
 }
 
