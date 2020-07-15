@@ -625,9 +625,6 @@ li {
 .SolucionesBanner .content p {
   font-family: "Source Sans Pro", sans-serif;
   display: block;
-}
-
-.SolucionesBanner .content #left {
   text-align: left;
 }
 

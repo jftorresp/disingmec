@@ -97,7 +97,7 @@ const SolucionesBanner = () => {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12" id="right_container">
-                <p id="left">
+                <p>
                   Contamos con personal humano calificado y con amplia
                   experiencia certificada para el desarrollo de todos los
                   proyectos. Además, contamos con todas las herramientas

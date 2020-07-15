@@ -273,7 +273,7 @@ const Navbar2 = () => {
                   </svg>
                   Buscar
                 </li>
-                <button onClick={showMenu}>
+                <button onClick={showMenu} name="burger menu">
                   <FontAwesomeIcon icon={faBars} id="burger"></FontAwesomeIcon>
                 </button>
               </ul>
