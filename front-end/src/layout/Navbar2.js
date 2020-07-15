@@ -21,10 +21,13 @@ const Navbar2 = () => {
           <a href="#" className="closebtn" onClick={hideMenu}>
             &times;
           </a>
+          <Link to="/" className="link" aria-label="home" onClick={hideMenu}>
+            Inicio
+          </Link>
           <Link
             to="/#nosotros"
             className="link"
-            aria-label="home"
+            aria-label="nosotros"
             onClick={hideMenu}
           >
             Nosotros
