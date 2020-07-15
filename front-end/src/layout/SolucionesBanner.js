@@ -5,18 +5,20 @@ const SolucionesBanner = () => {
   return (
     <div className="SolucionesBanner">
       <div className="banner">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12"></div>
-            <div className="col-lg-6 col-md-12" id="blue">
-              <h1>Proyectos y soluciones únicas para su empresa</h1>
-              <hr className="line" />
-              <p>
-                Disingmec no se limita a un portafolio de servicios
-                preestablecidos. Nuestro servicio más valioso es el de crear
-                soluciones ÚNICAS según las necesidades de nuestros clientes. No
-                hay proyecto de metalmecánica que no podamos llevar a cabo.
-              </p>
+        <div id="blue">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-12"></div>
+              <div className="col-lg-6 col-md-12">
+                <h1>Proyectos y soluciones únicas para su empresa</h1>
+                <hr className="line" />
+                <p>
+                  Disingmec no se limita a un portafolio de servicios
+                  preestablecidos. Nuestro servicio más valioso es el de crear
+                  soluciones ÚNICAS según las necesidades de nuestros clientes.
+                  No hay proyecto de metalmecánica que no podamos llevar a cabo.
+                </p>
+              </div>
             </div>
           </div>
         </div>
