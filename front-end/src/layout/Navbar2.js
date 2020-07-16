@@ -14,6 +14,24 @@ const Navbar2 = () => {
     document.getElementById("main").style.marginLeft = "0";
   }
 
+  function showSearch() {
+    var x = document.getElementById("search-field");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function showSearch2() {
+    var x = document.getElementById("search-field2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
   return (
     <div className="Navbar2">
       <div className="container">
@@ -56,7 +74,12 @@ const Navbar2 = () => {
           >
             Contacto
           </Link>
-          <button>Buscar</button>
+          <button onClick={showSearch2}>Buscar</button>
+          <div className="search2" id="search-field2">
+            <form action="">
+              <input type="text" placeholder="Buscar..." id="search-input" />
+            </form>
+          </div>
         </div>
         <nav>
           <div className="row">
@@ -259,7 +282,7 @@ const Navbar2 = () => {
                     Contacto
                   </Link>
                 </li>
-                <li className="buscar li-nav">
+                <li className="buscar li-nav" onClick={showSearch}>
                   <svg
                     id="buscar"
                     data-name="Layer 1"
@@ -280,6 +303,15 @@ const Navbar2 = () => {
                   </svg>
                   Buscar
                 </li>
+                <div className="search" id="search-field">
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="Buscar..."
+                      id="search-input"
+                    />
+                  </form>
+                </div>
                 <button onClick={showMenu} name="burger menu">
                   <FontAwesomeIcon icon={faBars} id="burger"></FontAwesomeIcon>
                 </button>
