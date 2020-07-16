@@ -56,7 +56,7 @@ const Navbar2 = () => {
           >
             Contacto
           </Link>
-          <a href="#">Buscar</a>
+          <button>Buscar</button>
         </div>
         <nav>
           <div className="row">
