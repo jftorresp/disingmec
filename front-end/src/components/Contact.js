@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -8,6 +8,49 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
+  const [nombre, setNombre] = useState("");
+  const [telefono, setTelefono] = useState("");
+  const [email, setEmail] = useState("");
+  const [pais, setPais] = useState("");
+  const [mensaje, setMensaje] = useState("");
+
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    const payload = {
+      nombre: nombre,
+      telefono: telefono,
+      email: email,
+      pais: pais,
+      mensaje: mensaje,
+    };
+
+    fetch("http://localhost:3001/send", {
+      method: "POST",
+      body: JSON.stringify(payload),
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        if (response.status === "success") {
+          alert("Message Sent.");
+          resetForm();
+        } else if (response.status === "fail") {
+          alert("Message failed to send.");
+        }
+      });
+  };
+
+  const resetForm = () => {
+    setNombre("");
+    setTelefono("");
+    setPais("");
+    setTelefono("");
+    setMensaje("");
+  };
+
   return (
     <div className="Contact">
       <div>
@@ -88,13 +131,15 @@ const Contact = () => {
                 Llena el siguiente formulario y te contactaremos lo más pronto
                 posible!
               </h2>
-              <form>
+              <form onSubmit={handleSubmit} method="POST">
                 <div className="form-group">
                   <label htmlFor="">Nombre</label>
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Escribe tu nombre completo"
+                    value={nombre}
+                    onChange={(e) => setNombre(e.target.value)}
                   ></input>
                 </div>
                 <div className="form-group">
@@ -103,6 +148,8 @@ const Contact = () => {
                     type="email"
                     className="form-control"
                     placeholder="mail@ejemplo.com"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   ></input>
                 </div>
                 <div className="form-group">
@@ -111,6 +158,8 @@ const Contact = () => {
                     type="text"
                     className="form-control"
                     placeholder="321 123 4567"
+                    value={telefono}
+                    onChange={(e) => setTelefono(e.target.value)}
                   ></input>
                 </div>
                 <div className="form-group">
@@ -119,14 +168,18 @@ const Contact = () => {
                     type="text"
                     className="form-control"
                     placeholder="Colombia"
+                    value={pais}
+                    onChange={(e) => setPais(e.target.value)}
                   ></input>
                 </div>
                 <div className="form-group">
-                  <label htmlFor="">Email</label>
+                  <label htmlFor="">Mensaje</label>
                   <textarea
                     className="form-control"
                     rows="3"
                     placeholder="Deja tu mensaje"
+                    value={mensaje}
+                    onChange={(e) => setMensaje(e.target.value)}
                   ></textarea>
                 </div>
                 <button type="submit">Enviar</button>

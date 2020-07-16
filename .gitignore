@@ -62,3 +62,8 @@ typings/
 
 # vscode
 .vscode
+
+# config file
+config.js
+
+
