@@ -1,5 +1,6 @@
 import React from "react";
 import banner_soluciones from "../images/banner_soluciones.jpeg";
+import { Link } from "react-router-dom";
 
 const SolucionesBanner = () => {
   return (
@@ -18,6 +19,9 @@ const SolucionesBanner = () => {
                   soluciones ÚNICAS según las necesidades de nuestros clientes.
                   No hay proyecto de metalmecánica que no podamos llevar a cabo.
                 </p>
+                <Link to="/contacto">
+                  <button name="Contactenos">¡Contáctenos!</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -78,23 +82,25 @@ const SolucionesBanner = () => {
             </div>
             <div className="row" id="flex">
               <div className="col-lg-6 col-md-12" id="blue2">
-                <div className="row">
-                  <div className="col-3">
-                    <img src={banner_soluciones} alt="Img4"></img>
+                <Link to="/proyectos">
+                  <div className="row">
+                    <div className="col-3">
+                      <img src={banner_soluciones} alt="Img4"></img>
+                    </div>
+                    <div className="col-3">
+                      <img src={banner_soluciones} alt="Img5"></img>
+                    </div>
+                    <div className="col-3">
+                      <img src={banner_soluciones} alt="Img6"></img>
+                    </div>
+                    <div className="col-3">
+                      <img src={banner_soluciones} alt="Img7"></img>
+                    </div>
                   </div>
-                  <div className="col-3">
-                    <img src={banner_soluciones} alt="Img5"></img>
+                  <div className="row">
+                    <h4>¡Conozca nuestros mejores proyectos!</h4>
                   </div>
-                  <div className="col-3">
-                    <img src={banner_soluciones} alt="Img6"></img>
-                  </div>
-                  <div className="col-3">
-                    <img src={banner_soluciones} alt="Img7"></img>
-                  </div>
-                </div>
-                <div className="row">
-                  <h4>¡Conozca nuestros mejores proyectos!</h4>
-                </div>
+                </Link>
               </div>
               <div className="col-lg-6 col-md-12" id="right_container">
                 <p>

@@ -717,6 +717,32 @@ li {
   border: 1px solid white;
 }
 
+.SolucionesBanner button {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: #032774;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+  margin: auto 7px;
+  position: absolute;
+  right: -1px;
+}
+
+.SolucionesBanner button:hover {
+  background-color: #ffdd15;
+  color: #032774;
+  transition: 0.5s;
+}
+
+.SolucionesBanner a {
+  text-decoration: none;
+}
+
+.SolucionesBanner a:hover {
+  text-decoration: none;
+}
+
 .SolucionesBanner .content {
   background-color: #032774;
   height: 100%;

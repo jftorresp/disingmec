@@ -14,7 +14,7 @@ const Proyectos = () => {
             officiis ipsam vel.
           </p>
           <Link to="/proyectos">
-            <button>CONOZCA MÁS</button>
+            <button name="Conozca mas">CONOZCA MÁS</button>
           </Link>
         </div>
       </div>
