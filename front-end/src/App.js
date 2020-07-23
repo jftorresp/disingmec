@@ -12,6 +12,7 @@ import Proyectos from "./layout/Proyectos";
 import Galeria from "./layout/Galeria";
 import Redes from "./layout/Redes";
 import Footer from "./layout/Footer";
+import Tebsa from "./layout/Tebsa";
 import Services from "./components/Services";
 import SolucionesBanner from "./layout/SolucionesBanner";
 import Projects from "./components/Projects";
@@ -49,6 +50,9 @@ function App() {
           </Route>
           <Route path="/soluciones">
             <SolucionesBanner />
+          </Route>
+          <Route path="/tebsa">
+            <Tebsa />
           </Route>
         </Switch>
         <Redes />

@@ -539,6 +539,105 @@
   padding: 10px;
 }
 
+/*Proyectos Detail*/
+
+.detail-project .banner {
+  background-image: url(images/banner_soluciones.jpeg);
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  background-position: center;
+}
+
+.detail-project .banner #blue {
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 39, 116, 0.7) 50%,
+    rgba(3, 39, 116, 0) 50%
+  );
+  padding: 5% 5% 5% 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.detail-project .banner .row {
+  height: 100%;
+  margin: 0px;
+}
+
+.detail-project .banner h1 {
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  color: white;
+  display: block;
+  text-align: left;
+}
+
+.detail-project .banner p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  display: block;
+  text-align: left;
+}
+
+.detail-project .banner .line {
+  border: 1px solid white;
+}
+
+.detail-project .content {
+  background-color: #032774;
+  height: 100%;
+}
+
+.detail-project .content .row {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.detail-project .content .col-lg-6 {
+  display: table-cell;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.detail-project .content .curve {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8% 0 0 0 /70% 0 0 0;
+  text-align: center;
+  text-indent: 0.1em;
+  z-index: 1;
+  margin: 0;
+  padding: 30px;
+}
+
+.detail-project .content #curve-sol {
+  background-color: white;
+}
+
+.detail-project .content .container {
+  height: 100%;
+}
+
+.detail-project .content p {
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+  text-align: left;
+}
+
+.detail-project h2 {
+  color: #032774;
+  font-family: "ITC Avant Garde Gothic Std Demi";
+  text-align: center;
+  margin: 5px auto;
+}
+
+.detail-project .image-gallery {
+  margin: 0 auto;
+}
+
 /* Galeria Styles */
 
 .Galeria {
@@ -667,14 +766,6 @@ li {
   background-position: center;
 }
 
-/* .SolucionesBanner .row {
-  display: inline-block;
-} */
-
-.SolucionesBanner .banner .col-6 {
-  display: table-cell;
-}
-
 .SolucionesBanner .banner #blue {
   background-image: linear-gradient(
     to right,
@@ -685,14 +776,6 @@ li {
   vertical-align: middle;
   width: 100%;
 }
-
-/* .SolucionesBanner .banner .container {
-  max-width: 100%;
-  height: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding: 0px;
-} */
 
 .SolucionesBanner .banner .row {
   height: 100%;
@@ -845,7 +928,7 @@ li {
   color: white;
   display: block;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .SolucionesBanner .content #flex {
@@ -964,6 +1047,13 @@ li {
     order: 1;
   }
   .SolucionesBanner .banner #blue {
+    background-image: linear-gradient(
+      to right,
+      rgba(3, 39, 116, 0.7) 50%,
+      rgba(3, 39, 116, 0.7) 50%
+    );
+  }
+  .detail-project .banner #blue {
     background-image: linear-gradient(
       to right,
       rgba(3, 39, 116, 0.7) 50%,
